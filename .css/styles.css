@@ -1,0 +1,79 @@
+.logIn {
+    font-family: 'Cabin', sans-serif;
+    padding-left: 100px;
+}
+
+.logo {
+    font-family: 'Kenia', cursive;
+    font-size: 55px;
+}
+
+.socialIcon {
+    font-size: 50px;
+    width: 50px;
+}
+
+.landingBody {
+    background-color: #fcdc59;
+}
+
+.mainHeader {
+    background-color: #fcdc59;
+}
+
+.connectArea {
+    background-color: #fcdc59;
+}
+
+.submitButtonsEverywhere {
+    font-family: 'Cabin', sans-serif;
+}
+
+.column figure img {
+    opacity: 1;
+    transition: .3s ease-in-out;
+}
+
+.column figure:hover img {
+    opacity: .9;
+    transform: scale(1.05);
+}
+
+.emotionBtns-view {
+    padding-top: 20px;
+}
+
+.showBtn {
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    margin-left: 10%;
+    background-color: #fcdc59;
+    color: black;
+    font-family: 'Kenia', cursive;
+}
+
+.connectWithUs {
+    font-family: 'Kenia', cursive;
+    font-size: 40px;
+}
+
+.connectWithUsCopyright {
+    font-family: 'Kenia', cursive;
+    font-size: 20px;
+}
+
+.navBar {
+    font-family: 'Kenia', cursive;
+    font-size: 45px;
+}
+
+.searchBox {
+    padding-left: 32.5px;
+}
+
+.gifDiv {
+    padding-left: 25%;
+}

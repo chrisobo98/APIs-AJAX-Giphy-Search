@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kenia|Orbitron" rel="stylesheet">
+
+    <!--Import Bulma.css-->
+    <link type "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
+    <link type "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css.map">
+
+    <!-- Link Stylesheet -->
+    <link type="text/css" rel="stylesheet" href=".css/styles.css">
+    <link type="text/css" rel="stylesheet" href=".css/bulma.css">
+    <link type="text/css" rel="stylesheet" href=".css/bulma.css.map.txt">
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Font Stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--mobile optimization-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- page title -->
+    <title>Ajax API HW</title>
+</head>
+
+
+<!-- navbar -->
+<section class="hero is-warning">
+    <div class="hero-body has-text-centered submitButtonsEverywhere navBar">
+        <p>Blast from the Past Giphy API
+        </p>
+    </div>
+</section>
+
+
+<!-- Contact -->
+<section class="hero pageHolder">
+    <div class="hero-body mainRow">
+        <div class="container">
+            <div class="columns">
+
+                <!-- left area (is-one-third) -->
+                <div class="column is-one-third" id="buttonHolder">
+                    <div class="navbar-item">
+                        <div class="field is-grouped" id="formHolder">
+
+                            <p class="control is-expanded searchBox">
+                                <input class="input" id="showInput" type="text" placeholder="Search Gifs">
+                            </p>
+
+                            <!-- button -->
+                            <p class="control">
+                                <a class="bd-tw-button button is-warning logo addShow">
+                                    Search
+                                </a>
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- area where you can see the buttons -->
+                    <div class="showButtons"></div>
+
+                </div>
+
+                <!-- area gifs are displayed -->
+                <div class="column" id="gifHolder">
+                    <div class="gifArea"></div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Social Media -->
+<section class="hero">
+    <div class="hero-body connectArea">
+        <div class="container">
+            <nav class="level">
+                <div class="level-left">
+                    <div class="level-item">
+                        <h1 class="title is-4 connectWithUs">Check out my other projects</h1>
+                    </div>
+                </div>
+                <div class="level-right">
+                    <div class="level-item">
+                        <p class="level-item socialIcon">
+                            <a class="fa fa-github-square" target="_blank" href="https://github.com/chrisobo98" aria-hidden="true"></a>
+                        </p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="hero is-dark">
+    <div class="hero-body has-text-centered submitButtonsEverywhere connectWithUsCopyright">
+        <p>Copyright @
+            <a>A Bermudez Project</a>.
+        </p>
+    </div>
+</section>
+
+<!-- javascript -->
+<script type="text/javascript" src="javascript/app.js"></script>
+
+</body>
+
+</HTML>
